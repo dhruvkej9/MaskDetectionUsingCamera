@@ -17,8 +17,8 @@ img_width , img_height = 150,150
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-# cap = cv2.VideoCapture('video.mp4')
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('video.mp4')
+# cap = cv2.VideoCapture(0) # for using system camera
 img_count_full = 0
 
 font = cv2.FONT_HERSHEY_SIMPLEX
